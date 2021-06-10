@@ -114,6 +114,6 @@ STATIC_ROOT = 'static'
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
 
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, 'static')
-]
+#STATICFILES_DIRS = [
+#   os.path.join(BASE_DIR, 'static')
+#]
