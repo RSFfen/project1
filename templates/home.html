@@ -26,5 +26,14 @@
 
 <p><font face="Calibri" size="5">Подробную информацию можно узнавать у владельцев частных жилых помещений</font></p>
 
+<div class="card-footer">
+	<p><a href="{% url 'comment_new' %}"><button class="btn btn-success ml-2" type="input">Добавить комментарий</button></a></p>
+	<h2><b>Комментарии</b></h2>
+	{% for comment in all_comments_list.all %}
+		<hr>
+		<p>{{ comment.text }}</p>
+	{% endfor %}
+</div>
+
 {% endblock content %}
 

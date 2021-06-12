@@ -111,6 +111,8 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = 'static'
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
 
