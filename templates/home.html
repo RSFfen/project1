@@ -2,24 +2,29 @@
 {% load static %}
 
 {% block content %}
-<h1>Домашняя страница</h1>
+<h1><font face="Calibri" size="6">Домашняя страница</font></h1>
 <center><img src="https://imageup.ru/img199/3759823/arendadomov.jpg" border="0" alt=""></center>
 <table border="0" width="100%">
 	<tr>
 		<td width="33%">
-		<p align="center">Первый дом</p>
+		<p align="center"><font face="Calibri" size="5"><a href="{% url 'house1' %}">Первый дом</a></font></p>
 		<p align="center">
-		<img src="https://imageup.ru/img202/3759825/house.jpg" border="0" alt=""></td>
+			<a href="{% url 'house1' %}"><img src="https://imageup.ru/img208/3760392/house1.jpg" border="0" alt=""></a>
+		</td>
 		<td width="33%">
-		<p align="center">Второй дом</p>
+		<p align="center"><font face="Calibri" size="5"><a href="{% url 'house2' %}">Второй дом</a></font></p>
 		<p align="center">
-		<img src="https://imageup.ru/img202/3759825/house.jpg" border="0" alt=""></td>
+			<a href="{% url 'house2' %}"><img src="https://imageup.ru/img277/3760393/house2.jpg" border="0" alt=""></a>
+		</td>
 		<td width="33%">
-		<p align="center">Третий дом</p>
+		<p align="center"><font face="Calibri" size="5"><a href="{% url 'house3' %}">Третий дом</a></font></p>
 		<p align="center">
-		<img src="https://imageup.ru/img202/3759825/house.jpg" border="0" alt=""></td>
+			<a href="{% url 'house3' %}"><img src="https://imageup.ru/img218/3760394/house3.jpg" border="0" alt=""></a>
+		</td>
 	</tr>
 </table>
+
+<p><font face="Calibri" size="5">Подробную информацию можно узнавать у владельцев частных жилых помещений</font></p>
 
 {% endblock content %}
 
